@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#1e272e; 
+}
+
+main{
+    width: 90%;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#b2bec3;
+     
+}
+
+header{
+    width: 100%;
+    height:150px;
+    background-color:#636e72; 
+   
+   
+     
+}
+
+section{
+    width:100%;
+    height:550px;
+    text-align: center;
+    background-color:#b2bec3;
+    box-sizing:border-box; 
+
+}
+
+
+p{
+   text-align:left;
+   margin-left:2%;
+   margin-top:2%;
+   font-family: 'Montserrat', sans-serif;
+   font-size:10px;
+}
+
+
+h2{
+    text-align:left;
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:2%;
+    float:left;
+}
+
+
+#Persona img{
+    width:200px;
+    height:200px;
+    float:right;
+    padding:0.5%;
+
+
+}
+
+#Escenas img{
+    width:200px;
+    height:200px;
+    float:right;
+    
+
+}
+
+h3{
+    text-align:right;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:2%;
+    margin-right:7%;
+    
+} 
+
+h5{
+    text-align:left;
+    float:left;
+    margin-left:4%;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Sorteo img{
+    width:200px;
+    height:200px;
+    float:left;
+   
+
+}
+
+#Sorteo-Texto p{
+    margin-left:4%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+}
+
+
+form{
+    width:300px;
+    background-color:#00cec9;
+    padding:2%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius:20px;
+    float:left;
+    margin-left:15%;
+    
+    
+   
+}
+
+#Formulario{
+    margin-top: 35px;   
+}
+
+#texto-index p{
+    text-align:left;
+    float:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size:10px;
+    background-color:#00cec9;
+    border-radius:20px;
+    padding:1%;
+    
+}
+
+
+#texto p{
+    width:30%;
+    height:40%;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+
+}
+
+
+#texto-personajes p{
+    text-align:left;
+    margin-left:3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:10px;
+}
+
+
+h4{
+    text-align:left;
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color:#747d8c;
+}
+
+nav{
+    height: 130px;
+    float: right;
+}
+
+nav li{
+    display:inline-block;
+    padding-top: 40px;
+}
+
+nav li a {
+    font-size: 15px;
+    width:220px;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding:10px;
+    margin-right:16px;
+    margin-top: 5px;
+    color:#f5f6fa;
+    border-radius:10px;
+    background-color:#57606f;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+header img{
+    width: 12%;
+    margin-left:1%;
+    float:left;
+    padding:1%;
+    margin-top:1%;
+}
+
+
+
+section img{
+    width:830px;
+    border-radius:4px;
+    padding:24px;
+    margin:20px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 70px;
+}
+
+
+.Imagen{
+    width: 160px;
+    margin-left:1%;
+    float:left;
+    padding:1%;
+}
+
+.Nombre{
+     padding-left:400px;
+     padding-top:2%;
+     color:#1e272e;
+     text-decoration:none;
+     font-size:16px;
+     text-align:center;
+     display: inline-block;
+     font-family: 'Montserrat', sans-serif;
+     float:left;
+     padding-right:3%;
+
+     
+}
+
+.Redes{
+    width:40px;
+    height:1px;
+    padding-left:2%;
+    padding-right:2%;
+    float:right;
+    text-align:center;
+    padding-top:2px;
+    padding:2%;
+    margin-right:2%;
+}
+
+
+.Cajitas{
+    width:100%;
+}
+
+.Cajota{
+    width: 100%;
+    height:100px;
+}
+
+.btn{
+    width:100px;
+    background-color:#747d8c;
+    color:#ffffff;
+    border-radius:8px;
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn:hover{
+    background-color:#00cec9;
+
+}
+
+#textoepisodio p{
+    width:30%;
+    height:40px;
+    text-align:left;
+    padding-left:1%;
+    margin-right:1%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:1%;
+    font-size:14px;
+}
+
+h1{
+    text-align:left;
+    margin-left:1%;
+    margin-top:1%;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left:1%;
+}
+
+
+  
+ iframe{
+
+    width:560px;
+    height:315px;
+    margin-left:31%;
+ }
+
+
+
